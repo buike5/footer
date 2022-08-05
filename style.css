@@ -3,6 +3,20 @@
 /* note that the tags here without classes like img, may affect the position of your other images. 
 you can fix that by selecting your img with a specific selector and setting styles to !important*/
 
+
+@import url(//db.onlinewebfonts.com/c/0d2fd4f1403674d8ed9e35626f971365?family=Inder);
+
+@font-face {
+    font-family: "Inder";
+    src: url("//db.onlinewebfonts.com/t/0d2fd4f1403674d8ed9e35626f971365.eot");
+}
+
+@import url(//db.onlinewebfonts.com/c/e662339992c4abf5b43f537391bd3169?family=Candara);
+
+@font-face {
+    font-family: "Candara";
+    src: url("//db.onlinewebfonts.com/t/e662339992c4abf5b43f537391bd3169.eot");
+}
 footer {
     padding: 0%;
     margin-top: 10%;
@@ -11,6 +25,7 @@ footer {
     justify-content: space-around;
     margin-bottom: 0%;
     position: sticky;
+    font-family: Inder;
 }
 
 img {
