@@ -1,0 +1,100 @@
+/* Footer styling goes here */
+
+/* note that the tags here without classes like img, may affect the position of your other images. 
+you can fix that by selecting your img with a specific selector and setting styles to !important*/
+
+footer {
+    padding: 0%;
+    margin-top: 10%;
+    border: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0%;
+    position: sticky;
+}
+
+img {
+    padding: 0%;
+    margin: 0;
+    border: 0;
+    vertical-align: bottom;
+    position: relative;
+    bottom: 30px;
+    left: -7px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.flink:link {
+    text-decoration: none;
+    color: white;
+}
+
+.flink:visited {
+    color: #FFFFFF;
+}
+
+#dsyne {
+    padding: 0%;
+    margin-top: 0%;
+    border: 0;
+    position: relative;
+}
+
+#logotxt {
+    padding: 0%;
+    margin-top: 0%;
+    border: 0;
+    position: relative;
+    top: -27%;
+}
+
+.socialicon {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -25%;
+
+}
+
+/* Media queries for footer */
+@media screen and (max-width:750px) {
+    footer {
+        margin-top: 10%;
+        margin-left: 10%;
+        flex-direction: column;
+        position: sticky;
+    }
+
+    .socialicon {
+        flex-direction: row;
+        justify-content: unset;
+    }
+
+    #fimg {
+        bottom: 0px;
+    }
+
+    .fa {
+        margin: 5px 10px 10px 0px;
+    }
+
+    footer p {
+        margin: 10px 10px 10px 0px;
+    }
+
+}
